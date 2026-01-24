@@ -253,7 +253,7 @@ export const siteContent = {
       {
         name: "Serkan Çelik",
         role: "Medstifter & Videograf",
-        image: "/ekipfotolar/fatih.jpg"  // brown jacket, arms crossed
+        image: "/ekipfotolar/kara.jpg"  // brown jacket, arms crossed
       },
       {
         name: "Muhammed Kara",
@@ -263,12 +263,12 @@ export const siteContent = {
       {
         name: "Fatih Yerli",
         role: "ADS Manager",
-        image: "/ekipfotolar/seko.jpg"  // beige overshirt, arms crossed
+        image: "/ekipfotolar/nilgun.jpg"  // beige overshirt, arms crossed
       },
       {
         name: "Burak Berkay Aslan",
         role: "Video Editor",
-        image: "/ekipfotolar/kara.jpg"  // gray shirt
+        image: "/ekipfotolar/seko.jpg"  // gray shirt
       },
       {
         name: "Nilgün Kara",
@@ -278,7 +278,7 @@ export const siteContent = {
       {
         name: "Ina Çelik",
         role: "Content Manager",
-        image: "/ekipfotolar/nilgun.jpg"  // pink blazer
+        image: "/ekipfotolar/fatih.jpg"  // pink blazer
       }
     ],
     button: "KONTAKT OS"
