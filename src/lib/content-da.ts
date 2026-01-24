@@ -295,9 +295,9 @@ export const siteContent = {
         rating: 5,
         text: "Vi har fire steder, så det er vigtigt, at det hele er ens. Copenhagen Media har fået vores indhold til at se lige godt ud på alle afdelinger og hjulpet os med flere bookinger. De leverer hurtigt, svarer hurtigt, og videoerne bliver faktisk set.",
         author: {
-          name: "Mustafa Çorap",
-          role: "Co-Founder",
-          company: "Det Gronne Kokken",
+          name: "Mehmet Gül",
+          role: "Owner",
+          company: "Slagter Bob",
           logo: "/markalogo/12.png"
         }
       },
