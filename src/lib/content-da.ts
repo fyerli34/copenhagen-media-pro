@@ -42,7 +42,7 @@ export const siteContent = {
       }
     },
     // Oyun için iframe URL'i
-    gameUrl: "https://earnest-licorice-b7148f.netlify.app/", // GDevelop oyunu
+    gameUrl: "https://cph-game.pages.dev/", // GDevelop oyunu
     // Veya placeholder görseller
     images: [
       "https://ext.same-assets.com/2539127254/2446902132.png",
