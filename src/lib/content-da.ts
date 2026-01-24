@@ -317,8 +317,8 @@ export const siteContent = {
         author: {
           name: "Ting Ting",
           role: "Owner",
-          company: "Lauras Bakery",
-          logo: "/markalogo/5.png"
+          company: "Det Rene Brod",
+          logo: "/markalogo/14.png"
         }
       }
     ]
