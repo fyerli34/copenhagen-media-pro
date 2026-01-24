@@ -298,7 +298,7 @@ export const siteContent = {
           name: "Mehmet Gül",
           role: "Owner",
           company: "Slagter Bob",
-          logo: "/markalogo/12.png"
+          logo: "/markalogo/2.png"
         }
       },
       {
