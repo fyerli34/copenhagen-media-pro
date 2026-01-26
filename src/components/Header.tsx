@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b bg-[#111827] overflow-x-clip">
-      <div className="w-full h-20 md:h-24 px-4">
+      <div className="w-full h-20 md:h-24 px-4 max-w-7xl mx-auto">
         <div className="flex items-center h-full gap-8 lg:gap-12 min-w-0">
           {/* Logo - Sol */}
           <Link href={`/${currentLang}`} className="flex items-center gap-3 shrink-0">
