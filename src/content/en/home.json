@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "title": {
+      "part1": "GROW YOUR BUSINESS",
+      "highlighted": "FASTER",
+      "part2": "WE PROVIDE"
+    },
+    "animatedWords": ["FASTER", "BIGGER", "BETTER"],
+    "description": "With effective digital transformation strategies and our professional team, we work as one to help your brand reach its full potential—making goals that once seemed out of reach feel routine...",
+    "buttons": {
+      "primary": "LET'S TALK",
+      "secondary": "OUR PROJECTS"
+    }
+  },
+  "testimonials": {
+    "title": {
+      "part1": "CLIENT",
+      "highlighted": "FEEDBACK"
+    },
+    "items": [
+      {
+        "rating": 5,
+        "text": "Copenhagen Media made our photos and videos look a lot better...",
+        "author": {
+          "name": "Mehmet Gül",
+          "role": "Owner",
+          "company": "Slagter Bob",
+          "logo": "/markalogo/2.png"
+        }
+      }
+    ]
+  }
+}
