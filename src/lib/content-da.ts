@@ -253,32 +253,32 @@ export const siteContent = {
       {
         name: "Serkan Çelik",
         role: "Medstifter & Videograf",
-        image: "/ekipfotolar/kara.jpg"  // brown jacket, arms crossed
+        image: "/ekipfotolar/seko.jpg"  // brown jacket, arms crossed
       },
       {
         name: "Muhammed Kara",
         role: "Medstifter",
-        image: "/ekipfotolar/ina.jpg"  // navy/dark-blue jacket
+        image: "/ekipfotolar/kara.jpg"  // navy/dark-blue jacket
       },
       {
         name: "Fatih Yerli",
         role: "ADS Manager",
-        image: "/ekipfotolar/nilgun.jpg"  // beige overshirt, arms crossed
+        image: "/ekipfotolar/fatih.jpg"  // beige overshirt, arms crossed
       },
       {
         name: "Burak Berkay Aslan",
         role: "Video Editor",
-        image: "/ekipfotolar/seko.jpg"  // gray shirt
+        image: "/ekipfotolar/berkay.jpg"  // gray shirt
       },
       {
         name: "Nilgün Kara",
         role: "Designer",
-        image: "/ekipfotolar/berkay.jpg"  // red/orange blazer with headscarf
+        image: "/ekipfotolar/nilgun.jpg"  // red/orange blazer with headscarf
       },
       {
         name: "Ina Çelik",
         role: "Content Manager",
-        image: "/ekipfotolar/fatih.jpg"  // pink blazer
+        image: "/ekipfotolar/ina.jpg"  // pink blazer
       }
     ],
     button: "KONTAKT OS"
