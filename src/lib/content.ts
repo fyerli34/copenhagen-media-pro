@@ -292,7 +292,7 @@ export const siteContent = {
     items: [
       {
         rating: 5,
-        text: "We have four locations, so consistency matters. Copenhagen Media made our content look the same quality across all branches and helped us bring in more bookings. They deliver fast, answer quickly, and the videos actually get watched.",
+        text: "Copenhagen Media made our photos and videos look a lot better, and it helped people actually notice our products. The ads brought in more orders, and we could see it in the webshop. Easy to work with, fast delivery, and we didn’t have to go back and forth a hundred times.",
         author: {
           name: "Mehmet Gül",
           role: "Owner",

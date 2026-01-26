@@ -293,7 +293,7 @@ export const siteContent = {
     items: [
       {
         rating: 5,
-        text: "Vi har fire steder, så det er vigtigt, at det hele er ens. Copenhagen Media har fået vores indhold til at se lige godt ud på alle afdelinger og hjulpet os med flere bookinger. De leverer hurtigt, svarer hurtigt, og videoerne bliver faktisk set.",
+        text: "Copenhagen Media fik vores billeder og videoer til at se meget bedre ud, og det gjorde, at folk faktisk lagde mærke til vores varer. Annoncerne gav flere ordrer, og det kunne vi se i webshoppen. Nemt at arbejde med, hurtig levering, og vi skulle ikke skrive frem og tilbage hundrede gange.",
         author: {
           name: "Mehmet Gül",
           role: "Owner",
