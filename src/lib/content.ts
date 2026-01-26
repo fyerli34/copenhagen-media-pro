@@ -1,3 +1,4 @@
+import homeEN from "@/content/en/home.json"
 export const siteContent = {
   // Header & Logo
   logo: {
