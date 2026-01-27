@@ -44,7 +44,7 @@ export default function Footer() {
             <div className="space-y-2">
               <a
                 href="tel:+4555227260"
-                className="text-sm text-gray-300 hover:text-white transition-colors"
+                className="block text-sm text-gray-300 hover:text-white transition-colors"
                 aria-label="Call Copenhagen Media"
               >
                 +45 55 22 72 60
@@ -52,7 +52,7 @@ export default function Footer() {
 
               <a
                 href="mailto:info@cphmediapro.dk"
-                className="text-sm text-[#8D6EEA] hover:text-white transition-colors"
+                className="block text-sm text-[#8D6EEA] hover:text-white transition-colors"
                 aria-label="Email Copenhagen Media"
               >
                 info@cphmediapro.dk
