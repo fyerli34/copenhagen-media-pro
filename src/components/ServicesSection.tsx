@@ -16,10 +16,13 @@ export default function ServicesSection() {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4">
-            {services.title.part1}{" "}
+            <span className="text-2xl sm:text-3xl md:text-5xl">
+              {services.title.part1}
+            </span>{" "}
             <span className="text-gradient">{services.title.highlighted}</span>{" "}
             {services.title.part2}
           </h2>
+
           <p className="text-gray-600 max-w-2xl mx-auto">
             {services.description}
           </p>
