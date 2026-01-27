@@ -271,7 +271,7 @@ export const siteContent = {
         image: "/ekipfotolar/seko.jpg"  // gray shirt
       },
       {
-        name: "Nilgun Kara",
+        name: "Nilgun Duygu",
         role: "Designer",
         image: "/ekipfotolar/berkay.jpg"  // red/orange blazer with headscarf
       },
