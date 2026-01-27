@@ -11,7 +11,6 @@ export default function Footer() {
   const siteContent = currentLang === "da" ? siteContentDA : siteContentEN
   const { footer, navigation } = siteContent
 
-  // Navigation items for Useful Links
   const navItems = navigation.map((item) => {
     const isContact =
       item.label.toLowerCase() === "contact" || item.label.toLowerCase() === "kontakt"
@@ -41,32 +40,34 @@ export default function Footer() {
                 COPENHAGEN MEDIA
               </span>
             </div>
+
             <div className="space-y-2">
-  <a
-    href="tel:+4555227260"
-    className="text-sm text-gray-300 hover:text-white transition-colors"
-    aria-label="Call Copenhagen Media"
-  >
-    +45 55 22 72 60
-  </a>
+              <a
+                href="tel:+4555227260"
+                className="text-sm text-gray-300 hover:text-white transition-colors"
+                aria-label="Call Copenhagen Media"
+              >
+                +45 55 22 72 60
+              </a>
 
-  <a
-    href="mailto:info@cphmediapro.dk"
-    className="text-sm text-[#8D6EEA] hover:text-white transition-colors"
-    aria-label="Email Copenhagen Media"
-  >
-    info@cphmediapro.dk
-  </a>
-</div>
+              <a
+                href="mailto:info@cphmediapro.dk"
+                className="text-sm text-[#8D6EEA] hover:text-white transition-colors"
+                aria-label="Email Copenhagen Media"
+              >
+                info@cphmediapro.dk
+              </a>
+            </div>
+          </div>
 
-
-          {/* Useful Links - Header Navigation */}
+          {/* Useful Links */}
           <div>
             <h3 className="font-bold mb-4 text-lg">{usefulLinksText}</h3>
             <ul className="space-y-3">
               {navItems.map((item, index) => {
                 const isContact =
                   item.label.toLowerCase() === "contact" || item.label.toLowerCase() === "kontakt"
+
                 return (
                   <li key={index}>
                     {isContact ? (
@@ -90,7 +91,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Follow Us - Instagram */}
+          {/* Follow Us */}
           <div>
             <h3 className="font-bold mb-4 text-lg">{followUsText}</h3>
             <a
