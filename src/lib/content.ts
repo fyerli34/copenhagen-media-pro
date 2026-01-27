@@ -250,7 +250,7 @@ export const siteContent = {
     description: "The creative minds behind Copenhagen Media Pro - dedicated to helping your brand grow.",
     members: [
       {
-        name: "Serkan Çelik",
+        name: "Serkan Celik",
         role: "Co-Founder & Videographer",
         image: "/ekipfotolar/kara.jpg"  // brown jacket, arms crossed
       },
