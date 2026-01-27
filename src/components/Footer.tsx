@@ -42,10 +42,23 @@ export default function Footer() {
               </span>
             </div>
             <div className="space-y-2">
-              <p className="text-sm text-gray-300">+45 55 22 72 60</p>
-              <p className="text-sm text-[#8D6EEA]">info@cphmediapro.dk</p>
-            </div>
-          </div>
+  <a
+    href="tel:+4555227260"
+    className="text-sm text-gray-300 hover:text-white transition-colors"
+    aria-label="Call Copenhagen Media"
+  >
+    +45 55 22 72 60
+  </a>
+
+  <a
+    href="mailto:info@cphmediapro.dk"
+    className="text-sm text-[#8D6EEA] hover:text-white transition-colors"
+    aria-label="Email Copenhagen Media"
+  >
+    info@cphmediapro.dk
+  </a>
+</div>
+
 
           {/* Useful Links - Header Navigation */}
           <div>
