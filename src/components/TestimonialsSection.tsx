@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
     <section className="py-16 bg-violet-50">
       <div className="container">
         <div className="text-center mb-10">
-          <h2 className="text-4xl md:text-5xl font-black">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black">
             {testimonials.title.part1}{" "}
             <span className="text-gradient">{testimonials.title.highlighted}</span>
           </h2>
