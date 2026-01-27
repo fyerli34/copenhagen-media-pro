@@ -16,7 +16,7 @@ export default function ServicesSection() {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black mb-4">
-            <span className="text-2xl sm:text-3xl md:text-5xl">
+            <span className="text-xl sm:text-3xl md:text-5xl">
               {services.title.part1}
             </span>{" "}
             <span className="text-gradient">{services.title.highlighted}</span>{" "}
