@@ -251,7 +251,7 @@ export const siteContent = {
     description: "De kreative hjerner bag Copenhagen Media Pro - dedikeret til at hjælpe dit brand med at vokse.",
     members: [
       {
-        name: "Serkan Çelik",
+        name: "Serkan Celik",
         role: "Medstifter & Videograf",
         image: "/ekipfotolar/kara.jpg"  // brown jacket, arms crossed
       },
@@ -271,12 +271,12 @@ export const siteContent = {
         image: "/ekipfotolar/seko.jpg"  // gray shirt
       },
       {
-        name: "Nilgün Kara",
+        name: "Nilgun Duygu",
         role: "Designer",
         image: "/ekipfotolar/berkay.jpg"  // red/orange blazer with headscarf
       },
       {
-        name: "Ina Çelik",
+        name: "Ina Mihalas",
         role: "Content Manager",
         image: "/ekipfotolar/fatih.jpg"  // pink blazer
       }

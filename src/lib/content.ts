@@ -270,12 +270,12 @@ export const siteContent = {
         image: "/ekipfotolar/seko.jpg"  // gray shirt
       },
       {
-        name: "Nilgün Kara",
+        name: "Nilgun Duygu",
         role: "Designer",
         image: "/ekipfotolar/berkay.jpg"  // red/orange blazer with headscarf
       },
       {
-        name: "Ina Çelik",
+        name: "Ina Mihalas",
         role: "Content Manager",
         image: "/ekipfotolar/fatih.jpg"  // pink blazer
       }
