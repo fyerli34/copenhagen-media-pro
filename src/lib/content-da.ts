@@ -202,7 +202,7 @@ export const siteContent = {
         features: [
           "Præproduktion, produktion & postproduktion inkluderet",
           "4 Reels",
-          "2 optagedage pr. måned"
+          "2 optagedage pr. måned",
           "(Startpriser · Min. 6 måneder)"
         ],
         highlighted: false
@@ -217,7 +217,7 @@ export const siteContent = {
           "4 Reels",
           "Daglig story-design & deling",
           "10–12 opslag",
-          "2 optagedage pr. måned"
+          "2 optagedage pr. måned",
           "(Startpriser · Min. 6 måneder)"
         ],
         highlighted: false
@@ -232,7 +232,7 @@ export const siteContent = {
           "4 Reels",
           "Daglig story-design & deling",
           "10–12 opslag",
-          "Annoncehåndtering på Meta, Google & TikTok"
+          "Annoncehåndtering på Meta, Google & TikTok",
           "(Startpriser · Min. 6 måneder)"
         ],
         highlighted: true
