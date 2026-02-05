@@ -202,7 +202,7 @@ export const siteContent = {
           "Pre-production, production & post-production included",
           "4 Reels",
           "2 shooting days per month"
-          "“Prices start from · Minimum 6 months”"
+          '"Prices start from · Minimum 6 months"'
         ],
         highlighted: false
       },
@@ -217,6 +217,7 @@ export const siteContent = {
           "Daily story design & sharing",
           "10–12 posts",
           "2 shooting days per month"
+          '"Prices start from · Minimum 6 months"'
         ],
         highlighted: false
       },
@@ -231,6 +232,7 @@ export const siteContent = {
           "Daily story design & sharing",
           "10–12 posts",
           "Meta, Google & TikTok ads management"
+          '"Prices start from · Minimum 6 months"'
         ],
         highlighted: true
       }
