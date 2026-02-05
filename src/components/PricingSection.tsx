@@ -18,11 +18,17 @@ interface PricingPlan {
 
 export default function PricingSection() {
   const pathname = usePathname()
-  const currentLang = pathname?.startsWith('/da') ? 'da' : 'en'
-  const siteContent = currentLang === 'da' ? siteContentDA : siteContentEN
+  const currentLang = pathname?.startsWith("/da") ? "da" : "en"
+  const siteContent = currentLang === "da" ? siteContentDA : siteContentEN
   const { pricing } = siteContent
 
-  const getStartedText = currentLang === 'da' ? 'KOM I GANG' : 'GET STARTED'
+  const getStartedText = currentLang === "da" ? "KOM I GANG" : "GET STARTED"
+
+  // ✅ Price note (below price, small text)
+  const priceNoteText =
+    currentLang === "da"
+      ? "Startpriser · Min. 6 måneder"
+      : "Prices start from · Minimum 6 months"
 
   return (
     <section className="py-20 bg-violet-50">
@@ -32,9 +38,7 @@ export default function PricingSection() {
             {pricing.title.part1}{" "}
             <span className="text-gradient">{pricing.title.highlighted}</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            {pricing.description}
-          </p>
+          <p className="text-gray-600 max-w-2xl mx-auto">{pricing.description}</p>
         </div>
 
         {/* Pricing Cards */}
@@ -49,11 +53,13 @@ export default function PricingSection() {
               }`}
             >
               {/* Badge */}
-              <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold uppercase mb-4 ${
-                plan.highlighted
-                  ? "bg-white/20 text-white"
-                  : "bg-violet-100 text-violet-700"
-              }`}>
+              <span
+                className={`inline-block px-3 py-1 rounded-full text-xs font-bold uppercase mb-4 ${
+                  plan.highlighted
+                    ? "bg-white/20 text-white"
+                    : "bg-violet-100 text-violet-700"
+                }`}
+              >
                 {plan.badge}
               </span>
 
@@ -61,20 +67,36 @@ export default function PricingSection() {
               <h3 className="text-xl font-black mb-3">{plan.name}</h3>
 
               {/* Short Line */}
-              <p className={`text-sm mb-6 ${
-                plan.highlighted ? "text-white/80" : "text-gray-600"
-              }`}>
+              <p
+                className={`text-sm mb-6 ${
+                  plan.highlighted ? "text-white/80" : "text-gray-600"
+                }`}
+              >
                 {plan.shortLine}
               </p>
 
               {/* Price */}
               <div className="mb-6">
-                <span className="text-4xl font-black">{plan.price}</span>
-                <span className={`text-sm font-bold ${
-                  plan.highlighted ? "text-white/70" : "text-gray-500"
-                }`}>
-                  {" "}/ {plan.period}
-                </span>
+                <div>
+                  <span className="text-4xl font-black">{plan.price}</span>
+                  <span
+                    className={`text-sm font-bold ${
+                      plan.highlighted ? "text-white/70" : "text-gray-500"
+                    }`}
+                  >
+                    {" "}
+                    / {plan.period}
+                  </span>
+                </div>
+
+                {/* ✅ Note under price (small + subtle) */}
+                <div
+                  className={`mt-2 text-xs font-medium ${
+                    plan.highlighted ? "text-white/70" : "text-gray-500"
+                  }`}
+                >
+                  ({priceNoteText})
+                </div>
               </div>
 
               {/* Features */}
@@ -110,9 +132,7 @@ export default function PricingSection() {
 
         {/* Custom Plan */}
         <div className="max-w-2xl mx-auto text-center bg-white rounded-2xl p-12 shadow-lg">
-          <h3 className="text-3xl font-black mb-6">
-            {pricing.customPlan.title}
-          </h3>
+          <h3 className="text-3xl font-black mb-6">{pricing.customPlan.title}</h3>
           <Link
             href={`/${currentLang}/contact`}
             className="px-8 py-4 btn-gradient text-white font-bold rounded-md flex items-center justify-center gap-2 mx-auto hover:shadow-xl transition-all w-fit"
