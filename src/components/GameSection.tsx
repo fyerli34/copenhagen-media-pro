@@ -158,10 +158,10 @@ export default function GameSection() {
         {/* Subtle dark overlay */}
         <div className="absolute inset-0 bg-black/20 pointer-events-none" />
 
-        {/* Play Button - Only visible on hover */}
+        {/* Play Button - Always visible on mobile, hover on desktop */}
         <div
           className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ${
-            isHovered ? "opacity-100" : "opacity-0"
+            isHovered ? "opacity-100" : (isMobile ? "opacity-70" : "opacity-0")
           }`}
         >
           <div className={`${isMobile ? 'w-10 h-10' : 'w-12 h-12 md:w-16 md:h-16'} rounded-full bg-[#8D6EEA]/35 backdrop-blur-sm flex items-center justify-center transition-transform duration-300 hover:scale-110 hover:bg-[#8D6EEA]/50`}>
