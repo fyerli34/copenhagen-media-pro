@@ -107,6 +107,7 @@ export const siteContent = {
       "/markalogo/12.png",
       "/markalogo/13.png",
       "/markalogo/14.png",
+              "/markalogo/mer_bistro_websitesi_logo.png"
     ]
   },
 
