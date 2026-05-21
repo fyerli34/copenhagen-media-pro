@@ -16,7 +16,7 @@ export const siteContent = {
   // Hero Section
   hero: {
     title: {
-      part1: "GROW YOUR BUSINESS",h
+      part1: "GROW YOUR BUSINESS",
       highlighted: "FASTER",
       part2: "WE PROVIDE"
     },
