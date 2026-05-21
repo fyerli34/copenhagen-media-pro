@@ -69,7 +69,7 @@ export default function StatsSection() {
               <img
                 src={logo}
                 alt={`Partner ${index + 1}`}
-                className="h-36 md:h-44 w-auto object-contain" style={logo.includes('mer_bistro') ? {transform: 'scale(2.8)'} : {}}
+                className="h-36 md:h-44 w-auto object-contain" style={logo.includes('mer_bistro') ? {transform: 'scale(1.6)'} : {}}
               />
             </div>
           ))}
@@ -82,7 +82,7 @@ export default function StatsSection() {
               <img
                 src={logo}
                 alt={`Partner ${index + 1}`}
-                className="h-36 md:h-44 w-auto object-contain" style={logo.includes('mer_bistro') ? {transform: 'scale(2.8)'} : {}}
+                className="h-36 md:h-44 w-auto object-contain" style={logo.includes('mer_bistro') ? {transform: 'scale(1.6)'} : {}}
               />
             </div>
           ))}
