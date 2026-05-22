@@ -85,9 +85,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="da" className={`${inter.variable} ${poppins.variable}`}>
-      <head>
-        <meta name="google-site-verification" content="KOD_BURAYA_GELECEK" />
-      </head>
       <ClientBody>{children}</ClientBody>
     </html>
   );
