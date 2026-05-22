@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "KOD_BURAYA_GELECEK",
+    google: "s3KJ9rOBu0amJOA29Pjbqb_c2vQSUMCRYp22sMSx4Mk",
   },
 };
 
