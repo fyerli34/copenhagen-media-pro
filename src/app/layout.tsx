@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "KOD_BURAYA_GELECEK",
+    google: "s3KJ9rOBu0amJOA29Pjbqb_c2vQSUMCRYp22sMSx4Mk",
   },
 };
 
@@ -85,9 +85,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="da" className={`${inter.variable} ${poppins.variable}`}>
-      <head>
-        <meta name="google-site-verification" content="KOD_BURAYA_GELECEK" />
-      </head>
       <ClientBody>{children}</ClientBody>
     </html>
   );
