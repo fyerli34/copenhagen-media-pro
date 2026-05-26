@@ -1,6 +1,10 @@
-"use client";
+import type { Metadata } from "next";
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+export const metadata: Metadata = {
+    title: "CPH Media Pro",
+    description: "Welcome to CPH Media Pro - Social Media Agency in Copenhagen.",
+    robots: { index: false, follow: true },
+    alternates: { canonical: "https://cphmediapro.dk/da" },
+};
 
-export default function RootRedirectPage() { const router = useRouter(); useEffect(() => { router.replace("/da"); }, [router]); return null; }
+export default function RootPage() { return <meta httpEquiv="refresh" content="0; url=/da" />; }
