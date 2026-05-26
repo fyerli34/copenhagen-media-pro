@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /choose-language
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /home/
+Disallow: /*?elementskit_template=*
+
+Sitemap: https://cphmediapro.dk/sitemap.xml

@@ -1,11 +1,75 @@
 [images]
-  remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*", "https://img.youtube.com/.*"]
+remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*", "https://img.youtube.com/.*"]
 
 [build]
-  command = "bun run build"
-  publish = "out"
+command = "bun run build"
+publish = "out"
+
+# Old WordPress URLs - return 410 Gone so Google removes them from index
+[[redirects]]
+from = "/wp-admin/*"
+to = "/410.html"
+status = 410
+force = true
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/wp-includes/*"
+to = "/410.html"
+status = 410
+force = true
+
+[[redirects]]
+from = "/wp-content/*"
+to = "/410.html"
+status = 410
+force = true
+
+[[redirects]]
+from = "/wp-login.php"
+to = "/410.html"
+status = 410
+force = true
+
+[[redirects]]
+from = "/xmlrpc.php"
+to = "/410.html"
+status = 410
+force = true
+
+# /home/ duplicate of homepage - permanent redirect to Danish version
+[[redirects]]
+from = "/home"
+to = "/da"
+status = 301
+force = true
+
+[[redirects]]
+from = "/home/*"
+to = "/da"
+status = 301
+force = true
+
+# Block ElementsKit template preview URLs
+[[redirects]]
+from = "/*"
+query = {elementskit_template = ":any"}
+to = "/410.html"
+status = 410
+force = true
+
+# SPA fallback (must be last)
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+# Ensure robots.txt and sitemap.xml are served correctly
+[[headers]]
+for = "/robots.txt"
+[headers.values]
+Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+for = "/sitemap.xml"
+[headers.values]
+Content-Type = "application/xml; charset=utf-8"
