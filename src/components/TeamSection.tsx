@@ -30,9 +30,9 @@ export default function TeamSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 max-w-6xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-8 max-w-6xl mx-auto">
           {team.members.map((member: TeamMember, index: number) => (
-            <div key={index} className="group">
+            <div key={index} className="group w-[calc(50%-0.5rem)] md:w-[calc(33.333%-1.334rem)]">
               <div className="relative aspect-[3/4] rounded-xl md:rounded-2xl overflow-hidden mb-3 md:mb-4 bg-gray-100">
                 <Image
                   src={member.image}

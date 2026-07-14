@@ -256,9 +256,9 @@ export const siteContent = {
         image: "/ekipfotolar/kara.jpg"  // brown jacket, arms crossed
       },
       {
-        name: "Muhammed Kara",
-        role: "Co-Founder",
-        image: "/ekipfotolar/ina.jpg"  // navy/dark-blue jacket
+        name: "Ina Mihalas",
+        role: "Content Manager",
+        image: "/ekipfotolar/fatih.jpg"  // pink blazer
       },
       {
         name: "Fatih Yerli",
@@ -266,19 +266,14 @@ export const siteContent = {
         image: "/ekipfotolar/nilgun.jpg"  // beige overshirt, arms crossed
       },
       {
+        name: "Öykü Sagan",
+        role: "Creative Director",
+        image: "/ekipfotolar/oyku.jpg"  // black top, purple background
+      },
+      {
         name: "Burak Berkay Aslan",
         role: "Video Editor",
         image: "/ekipfotolar/seko.jpg"  // gray shirt
-      },
-      {
-        name: "Nilgun Duygu",
-        role: "Designer",
-        image: "/ekipfotolar/berkay.jpg"  // red/orange blazer with headscarf
-      },
-      {
-        name: "Ina Mihalas",
-        role: "Content Manager",
-        image: "/ekipfotolar/fatih.jpg"  // pink blazer
       }
     ],
     button: "CONTACT US"
