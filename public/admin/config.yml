@@ -5,14 +5,40 @@ backend:
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
+publish_mode: simple
+
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: "site"
+    label: "Site Content"
     files:
-      - file: "content/home.json"
-        label: "Home"
-        name: "home"
+      - name: "en"
+        label: "English"
+        file: "content/site-en.json"
         format: "json"
         fields:
           - { label: "Hero Title", name: "heroTitle", widget: "string" }
           - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Hero CTA Label", name: "heroCtaLabel", widget: "string" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Company", name: "company", widget: "string", required: false }
+              - { label: "Quote", name: "quote", widget: "text" }
+
+      - name: "da"
+        label: "Dansk"
+        file: "content/site-da.json"
+        format: "json"
+        fields:
+          - { label: "Hero Title", name: "heroTitle", widget: "string" }
+          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Hero CTA Label", name: "heroCtaLabel", widget: "string" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Company", name: "company", widget: "string", required: false }
+              - { label: "Quote", name: "quote", widget: "text" }

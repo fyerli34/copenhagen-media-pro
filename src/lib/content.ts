@@ -1,3 +1,4 @@
+import homeEN from "@/content/site-en.json";
 export const siteContent = {
   // Header & Logo
   logo: {
@@ -14,18 +15,21 @@ export const siteContent = {
   ],
 
   // Hero Section
+   // Hero Section
   hero: {
     title: {
-      part1: "GROW YOUR BUSINESS",
-      highlighted: "FASTER",
-      part2: "WE PROVIDE"
+      part1: homeEN.heroTitle,
+      highlighted: "",
+      part2: ""
     },
-    animatedWords: ["FASTER", "BIGGER", "BETTER"], // Animasyonlu kelimeler
-    description: "With effective digital transformation strategies and our professional team, we work as one to help your brand reach its full potential—making goals that once seemed out of reach feel routine...",
+    animatedWords: [], // şimdilik boş
+    description: homeEN.heroSubtitle,
     buttons: {
-      primary: "LET'S TALK",
+      primary: homeEN.heroCtaLabel,
       secondary: "OUR PROJECTS"
     }
+  },
+
   },
 
   // Game Section (2. Section - Oyun Alanı)
@@ -280,12 +284,13 @@ export const siteContent = {
   },
 
   // Testimonials
-  testimonials: {
-    title: {
-      part1: "CLIENT",
-      highlighted: "FEEDBACK"
-    },
-    items: [
+testimonials: {
+  ...siteEN.testimonials,
+  title: {
+    part1: "CLIENT",
+    highlighted: "FEEDBACK",
+  },
+  items: [
       {
         rating: 5,
         text: "Copenhagen Media made our photos and videos look a lot better, and it helped people actually notice our products. The ads brought in more orders, and we could see it in the webshop. Easy to work with, fast delivery, and we didn’t have to go back and forth a hundred times.",
