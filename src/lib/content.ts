@@ -197,12 +197,12 @@ export const siteContent = {
         badge: "Basic",
         name: "VIDEO PACKAGE",
         shortLine: "End-to-end video production, from planning to final delivery.",
-        price: "6,000 KR",
+        price: "7,000 KR",
         period: "MONTH",
         features: [
           "Pre-production, production & post-production included",
           "4 Reels",
-          "2 shooting days per month"
+          "1 shooting day per month"
         ],
         highlighted: false
       },

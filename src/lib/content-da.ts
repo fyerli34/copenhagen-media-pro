@@ -198,12 +198,12 @@ export const siteContent = {
         badge: "Basic",
         name: "VIDEO PAKKE",
         shortLine: "Video-produktion fra planlægning til færdig levering.",
-        price: "6.000 KR",
+        price: "7.000 KR",
         period: "MD.",
         features: [
           "Præproduktion, produktion & postproduktion inkluderet",
           "4 Reels",
-          "2 optagedage pr. måned"
+          "1 optagedag pr. måned"
         ],
         highlighted: false
       },
